@@ -9,6 +9,7 @@ from telegram.ext import (
     ApplicationBuilder,
     CommandHandler,
     MessageHandler,
+    ContextTypes,
     filters
 )
 from app.core.config import settings
